@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Single Page Web Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        p {
+            color: #777;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Single Page Web Application</h1>
+        <p>This is a simple example of a single-page web application.</p>
+        <button id="clickMeBtn">Click Me!</button>
+        <div id="output"></div>
+    </div>
+
+    <script>
+        var clickMeBtn = document.getElementById("clickMeBtn");
+        var outputDiv = document.getElementById("output");
+
+        clickMeBtn.addEventListener("click", function() {
+            outputDiv.textContent = "Button clicked!";
+        });
+    </script>
+</body>
+</html>
