@@ -1,5 +1,5 @@
 # test-sc
-In this example, we have a single HTML file that contains the structure, styling, and logic for the web application. The application displays a heading, a paragraph, a button, and an empty <div> for output.
+ we have a single HTML file that contains the structure, styling, and logic for the web application. The application displays a heading, a paragraph, a button, and an empty <div> for output.
 
 The JavaScript code adds an event listener to the button element. When the button is clicked, the text content of the output <div> is updated to show the message "Button clicked!"
 
